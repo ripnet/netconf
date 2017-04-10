@@ -5,6 +5,7 @@
   "require": {
     "phpseclib/phpseclib": "2.0.4"
   },
+  "minimum-stability": "stable",
   "autoload": {
     "psr-4": {
       "ripnet\\NetConf\\": "src/"
