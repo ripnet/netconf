@@ -1,6 +1,6 @@
 {
   "name": "ripnet/netconf",
-  "version": "dev-master",
+  "version": "1.0.0",
   "description": "A basic PHP netconf library",
   "require": {
     "phpseclib/phpseclib": "2.0.4"
