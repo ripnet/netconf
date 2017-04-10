@@ -4,5 +4,10 @@
   "description": "A basic PHP netconf library",
   "require": {
     "phpseclib/phpseclib": "2.0.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "ripnet\\NetConf\\": "src/"
+    }
   }
 }
