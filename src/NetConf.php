@@ -39,7 +39,7 @@ class NetConf {
         $this->send($h, null);
     }
 
-    public function send($data, $eom) {
+    public function send($data, $eom = "</rpc-reply>") {
         $this->ssh->write($data . "]]>]]>\n");
         return $this->read($eom);
     }
