@@ -2,7 +2,7 @@
 
 namespace ripnet\NetConf;
 
-use phpseclib\Net\SSH2;
+use phpseclib3\Net\SSH2;
 
 class NetConf {
     /**
